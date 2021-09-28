@@ -1,0 +1,149 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ECF1EB;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.navbar{
+    font-size: 17px;
+    text-transform: uppercase;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar__link{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    transition: .2s linear;
+}
+
+.navbar__link:hover{
+    color: rgb(245, 13, 13);
+}
+
+.mountain{
+    height: 400px;
+    background:  url("https://a.storyblok.com/f/112697/1920x400/dd485a6b5a/research-project-banners2.png");
+
+}
+
+.mountain_soz{
+    color: white;
+    font-size: 45px;
+    padding: 50px;
+
+}
+
+.mountain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mountain__title {
+    font-size: 50px;
+    color: #fff; 
+    letter-spacing: 20px;
+
+    margin: 30px 0;
+}
+
+.border_soz {
+    padding-top: 10px;
+    width: 330px;
+    height: 100px;
+
+    border: 3px white solid; 
+    border-radius: 4px;
+
+    color: #fff; 
+    text-align: center;
+
+    font-size: 17px;
+    line-height: 200%;
+
+    margin-bottom: 70px;
+}
+
+
+.button_soz {
+    border: 3px white solid; 
+    border-radius: 4px;
+
+    padding: 10px 15px;
+
+    color: white; 
+
+    text-decoration: none;
+
+    transition: .2s all linear;
+}
+
+.button_soz:hover {
+    background-color: rgb(255, 7, 7);
+}
+
+.solution_soz{
+    padding: 30px;
+    text-align: center;
+    font-style:initial;
+
+    margin-bottom: 30px;
+}
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.card_charactersist {
+    text-align: center;
+    background-color: rgb(218, 211, 211);
+    border: 2px rgb(161, 155, 155) solid; 
+
+    padding-bottom: 20px;
+
+    margin-bottom: 40px;
+}
+
+.card__title {
+    font-size: 25px;
+    color: black; 
+    margin-bottom: 4px;
+}
+
+.card__subtitle {
+    margin-bottom: 15px;
+}
+.card_button{
+    border: 2px black solid;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    border-radius: 3px;
+    width: 200px;
+
+    margin-bottom: 20px;
+    transition: .2s all linear;
+}
+.card_button:hover{
+    background-color:rgb(255, 7, 7);
+}
